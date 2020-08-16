@@ -6,7 +6,7 @@ import sys
 client_id      = input("Provide the Client ID: ")
 client_secret  = input("Provide the Client Secret: ")
 
-date           = input("Enter a date in format YYYY-MM-DD for which the data is to be extacted : ")
+date           = input("Enter a date in format YYYY-MM-DD for which the data is to be extracted : ")
 
 fbClient       = FitbitClient(client_id, client_secret)
 auth2client    = fbClient.getAuth2Client()
